@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ["localhost", "127.0.0.1", "abigail-namaratonggi-footballnews.pb
 
 # Application definition
 
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
