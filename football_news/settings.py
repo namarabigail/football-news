@@ -33,7 +33,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "abigail-namaratonggi-footballnews.pbp.cs.ui.ac.id"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://abigail-namaratonggi-footballnews.pbp.cs.ui.ac.id/"
+    "https://abigail-namaratonggi-footballnews.pbp.cs.ui.ac.id"
 ]
 # Application definition
 
