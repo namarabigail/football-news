@@ -139,7 +139,6 @@ function buildNewsCardElement(item) {
         day: 'numeric' 
     }));
     const newsViews = DOMPurify.sanitize(item.news_views);
-    const isFeatured = item.is_featured;
     const isHot = newsViews > 20;
 
     const thumbnailHtml = DOMPurify.sanitize(
